@@ -1,6 +1,6 @@
 name = "MHT App"
 
 def display_name_of_app():
-    print(name)
+    print("\t\t", name)
 
 display_name_of_app()
