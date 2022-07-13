@@ -8,4 +8,3 @@ def my_function():
     print("|  3-Privacy       |")
     print("|  4-Exit          |")
     print(" ------------------")
-my_function()
