@@ -1,5 +1,30 @@
 
 
+def top_menu_loop():
+    # show menu options
+    user_input = int(input("Enter the Menu options:"))
+    while user_input != 4:
+        if user_input == 1:
+            # call main menu look funciton
+            loop_main_menu()
+        elif user_input == 2:
+            print("TODO")
+            # call functions which shows about unavailable for now
+        elif user_input == 3:
+            print("TODO")
+            # call function which shows about
+        elif user_input not in range(1, 4):
+            print("TODO")
+            # call function which shows option not available
+
+        # show top menu options
+        # get user input again
+        user_input = int(input(" Enter menu option"))
+
+    # function to output thanks for using app.
+
+
+
 def loop_main_menu():
     # show menu options
     user_input = int(input("Enter the Menu option:"))
@@ -7,9 +32,11 @@ def loop_main_menu():
         # show menu options
         if user_input == 1:
             print("TODO")
+            secret_room_menu()
             # call secret rooms function
         elif user_input == 2:
             print("TODO")
+            positive_vibes_menu()
             # call positive vibes room function
         elif user_input == 3:
             print("TODO")
@@ -24,7 +51,7 @@ def loop_main_menu():
 
             # call function for invalid options
             # draw the entire same screen again
-
+        # show menu options
         # get user input again
     user_input = int(input("Enter the Menu option:"))
 
