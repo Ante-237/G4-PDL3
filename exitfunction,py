@@ -1,0 +1,2 @@
+def exit_function():
+	print("Bye! and remember to take care of yourself.")
