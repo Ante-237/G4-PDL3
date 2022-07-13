@@ -6,5 +6,3 @@ def my_function2():
     print("|  2-Add Your Story |")
     print("|  3-Exit           |")
     print(" ------------------ ")
-
-my_function2()
