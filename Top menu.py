@@ -1,6 +1,6 @@
 #creating a function
 def my_function():
-    #printing various options
+    #printing top menu options
     print("Select an option")
     print("1-Menu")
     print("2-About")
