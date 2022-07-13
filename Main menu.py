@@ -7,6 +7,3 @@ def my_function1():
     print("|  4-Game Room       |")
     print("|  5-Exit            |")
     print(" --------------------")
-
-
-my_function1()
