@@ -19,7 +19,7 @@ def loop_main_menu():
             print("TODO")
             # call lgame room not available function
             # draw the entire same screen again
-        elif user_input not in range(0, 6):
+        elif user_input not in range(1, 6):
             print("TODO")
 
             # call function for invalid options
@@ -42,14 +42,37 @@ def secret_room_menu():
         if user_input == 2:
             print("TODO")
             # call function that ask user to add their story and adds it to the list
-        # show options
+        elif user_input not in range(1, 4):
+            print("TODO")
+            # call function to show invalid input by user
+
+        # show options for secret room
         user_input = int(input("Enter the Menu options: "))
 
     # go to MAIN MENU if exit value is entered
 
 
+def positive_vibes_menu():
+    # show menu options
+    user_input = int(input("Enter the Menu options: "))
+    while user_input != 2:
+        print("TODO")
+        if user_input == 1:
+            print("TODO")
+            # call function get and return a random word of encouragement
+        elif user_input not in range(1, 3):
+            print("TODO")
+            # call function to show invalid input by user
 
-            # call function
+        # show menu options for positive vibes
+        user_input = int(input("Enter the Menu options"))
+
+    # go to MAIN MENU if exit value is entered
+
+
+
+
+
 
 
 
