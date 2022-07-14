@@ -45,4 +45,20 @@ def my_spider():
     print("♦                                        ♦")
     print("♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦")
 
+# user interface designed image of a heart.
+
+def heart():
+
+    print("☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺")
+    print("☻                           ☻")
+    print("☻         ***   ***         ☻")
+    print("☻        ***** *****        ☻")
+    print("☻        ***********        ☻")
+    print("☻         *********         ☻")
+    print("☻           *****           ☻")
+    print("☻            ***            ☻")
+    print("☻             *             ☻")
+    print("☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺")
+
+
 
