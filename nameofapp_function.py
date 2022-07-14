@@ -1,4 +1,4 @@
-name = "MHT App"
+name = "** MHT App **"
 
 
 def display_name_of_app():
