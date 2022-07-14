@@ -1,4 +1,5 @@
 # customized images using asterisk
+# for name of app
 
 def my_function():
     print("---------------------------------------------------------------------------------------------------------")
@@ -10,16 +11,38 @@ def my_function():
     print("|  ******    *****    **          **  **     ******      ***        **          **   *****     ******** |")
     print("---------------------------------------------------------------------------------------------------------")
 
-# user interface deisgned image
+# user interface designed image of a flower
+# for main menu entry
+
 
 def my_image():
     print("  ҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉")
-    print(" ҉҉                       **                         ҉҉")
-    print(" ҉҉                 *    ****    *                   ҉҉ ")
-    print(" ҉҉                   **  ****  **                   ҉҉")
-    print(" ҉҉                    *** __ ***                    ҉҉")
-    print(" ҉҉               ********|  |********               ҉҉")
-    print(" ҉҉                        ¯¯                        ҉҉")
+    print(" ҉҉                        **                         ҉҉")
+    print(" ҉҉                  *    ****    *                   ҉҉ ")
+    print(" ҉҉                   **  ****  **                    ҉҉")
+    print(" ҉҉                    *** __ ***                     ҉҉")
+    print(" ҉҉               ********|  |********                ҉҉")
+    print(" ҉҉                        ¯¯                         ҉҉")
     print("  ҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉")
-my_function()
-my_image()
+
+# user interface designed image of a spider.
+# for secret room entry
+
+
+def my_spider():
+
+    print("♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦")
+    print("♦                  │                     ♦")
+    print("♦                  │                     ♦ ")
+    print("♦                  |                     ♦")
+    print("♦           |      *       |             ♦")
+    print("♦          ||     ***      ||            ♦ ")
+    print("♦          ||    *****     ||            ♦ ")
+    print("♦           ▬▬*********▬▬              ♦")
+    print("♦           ___--*****--___              ♦")
+    print("♦         ||      ****      ||           ♦ ")
+    print("♦         ||       ֍֍       ||           ♦")
+    print("♦                                        ♦")
+    print("♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦")
+
+
