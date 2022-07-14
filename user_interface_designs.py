@@ -14,6 +14,7 @@ def my_function():
 # user interface designed image of a flower
 # for main menu entry
 
+
 def my_image():
     print("  ҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉")
     print(" ҉҉                        **                         ҉҉")
@@ -26,6 +27,7 @@ def my_image():
 
 # user interface designed image of a spider.
 # for secret room entry
+
 
 def my_spider():
 
