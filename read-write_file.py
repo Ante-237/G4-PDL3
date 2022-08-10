@@ -6,13 +6,10 @@ def read():
     print(get_file)
     print("\t\t---------------------------------------------")
 
-
 # A function that appends a file
-
 def wt_vibes():
     vibe_bank = open("SecreteVibes.txt", mode='a')
     my_vibe = input(str("Please tell us your vibe: "))
     vibe_bank.write(my_vibe)
-
-
-
+read()
+wt_vibes()
