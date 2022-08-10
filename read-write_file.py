@@ -11,5 +11,3 @@ def wt_vibes():
     vibe_bank = open("SecreteVibes.txt", mode='a')
     my_vibe = input(str("Please tell us your vibe: "))
     vibe_bank.write(my_vibe)
-read()
-wt_vibes()
