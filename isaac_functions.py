@@ -34,11 +34,10 @@ def main_menu_options():
     print(" --------------------")
 
 
-def Positive_vibes_options():
-    #function to display positive vibe options
-
-    print("________________")
-    print(" Select an option")
-    print(" 1-Encouragement")
-    print(" 2-Exit")
-    print("-----------------")
+def positive_vibes_options():
+    # function to display positive vibe options
+    print("_________________________")
+    print("|  Select an option     |")
+    print("|  1-Encouragement      |")
+    print("|  2-Exit               |")
+    print("-------------------------")
