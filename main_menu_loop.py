@@ -1,7 +1,7 @@
 import user_interface_designs as ui_use_design
 
 
-class main_menu:
+class MainMenu:
 
     def __init__(self):
         pass
@@ -59,6 +59,7 @@ class main_menu:
         user_input = int(input("Enter the Menu option:"))
 
         # go to TOP MENU IS exit is entered
+    @staticmethod
     def secret_room_menu(self):
         # show menu options
         user_input = int(input("Enter the Menu options: "))
@@ -78,6 +79,7 @@ class main_menu:
             user_input = int(input("Enter the Menu options: "))
         # go to MAIN MENU if exit value is entered
 
+    @staticmethod
     def positive_vibes_menu(self):
         # show menu options
         user_input = int(input("Enter the Menu options: "))
