@@ -1,3 +1,8 @@
+#A function that displays the SecretVibes title
+
+def read_title():
+    print(" This is the Secrete Vibes Room ")
+
 # A function that reads a file and returns each line of the file
 def read():
     read_file = open("SecreteVibes.txt", mode='r', encoding='utf-8')
