@@ -22,7 +22,7 @@ class HeadingPart:
     # The function displays a message to the user that they are exiting the secret room
 
     @staticmethod
-    def function_to_exit(self):
+    def function_to_exit_secret(self):
         print("\t\t - You are exiting the secret room.")
 
     # Title Screen Function

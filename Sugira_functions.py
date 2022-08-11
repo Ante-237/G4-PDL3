@@ -12,7 +12,7 @@ class ReadAll:
     # A function that reads a file and returns each line of the file#
 
     @staticmethod
-    def read(self):
+    def read_choice(self):
         # read_file = open("SecreteVibes.txt", mode='r', encoding='utf-8')
         # get_file = read_file.readline()
         with open("SecreteVibes.txt", "r", encoding='utf-8') as file:
@@ -26,9 +26,11 @@ class ReadAll:
 
     # A function that appends a file secret vibes
     @staticmethod
-    def wt_vibes(self, datav):
+    def wt_vibes(self):
         # vibe_bank = open("SecreteVibes.txt", mode='a')
         # my_vibe = input(str("Please tell us your vibe: "))
         # vibe_bank.write(my_vibe)
+        output = input("\t\t Hey you what is your story : -> : ")
         with open("SecreteVibes.txt", "a", encoding='utf-8') as file:
-            file.write("\n" + datav)
+            file.write("\n" + output)
+        print("\t\t Thanks for Sharing")

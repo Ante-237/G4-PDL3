@@ -15,5 +15,9 @@ class Messages:
     def not_available(self, name):
         print("Hope you're leaving better than you came " + name + ", come again soon")
 
+    @staticmethod
+    def wrong_input(self):
+        print("\t\t Wrong input Choice")
+
 
 
