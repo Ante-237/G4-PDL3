@@ -40,7 +40,7 @@ class Designs:
         print("  ҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉  ")
 
     @staticmethod
-    def my_spider(self):
+    def my_spider():
         # for secret room title image
         print("♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦")
         print("♦                  │                     ♦")
