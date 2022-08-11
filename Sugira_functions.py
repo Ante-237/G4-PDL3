@@ -21,7 +21,6 @@ def read():
     print(get_file)
     print("\t\t---------------------------------------------")
     """ Close the file"""
-    get_file.close()
 
 
 # A function that appends a file secret vibes
