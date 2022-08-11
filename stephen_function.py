@@ -3,7 +3,7 @@ def exit_function():
 
 
 def unavailable():
-    print("The option you are trying to choose is currently unavailable"
+    print("The option you are trying to choose is currently unavailable")
 
 
 def not_available(name):
