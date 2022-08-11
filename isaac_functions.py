@@ -1,4 +1,9 @@
+class Display:
 
+    def __init__(self):
+        pass
+
+    @staticmethod
 # top menu options
 def top_menu_options():
     # printing top menu options
@@ -12,6 +17,7 @@ def top_menu_options():
 
 
 # secret room options
+@staticmethod
 def secret_room_options():
     # printing secret room options
     print(" __________________")
@@ -21,7 +27,7 @@ def secret_room_options():
     print("|  3-Exit           |")
     print(" ------------------ ")
 
-
+@staticmethod
 def main_menu_options():
     #
     print(" ____________________")
@@ -33,7 +39,7 @@ def main_menu_options():
     print("|  5-Exit            |")
     print(" --------------------")
 
-
+@staticmethod
 def positive_vibes_options():
     # function to display positive vibe options
     print("_________________________")
