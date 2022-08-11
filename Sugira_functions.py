@@ -1,8 +1,9 @@
+import random
+
+
 class ReadAll:
 
     # A function that displays the SecretVibes title
-    import random
-
     def read_title():
     print(" This is the Secrete Vibes Room ")
     # A function that reads a file and returns each line of the file#
