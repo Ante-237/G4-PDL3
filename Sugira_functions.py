@@ -18,6 +18,8 @@ def read():
     print("\t\t---------------------------------------------")
     print(get_file)
     print("\t\t---------------------------------------------")
+    """ Close the file"""
+    get_file.close()
 
 
 # A function that appends a file
