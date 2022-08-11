@@ -12,6 +12,7 @@ def my_function():
     print("|  ******    *****    **          **  **     ******      ***        **          **   *****     ******** |")
     print("---------------------------------------------------------------------------------------------------------")
 
+my_function()
 # user interface designed image of a flower
 # for main menu entry
 
@@ -28,7 +29,7 @@ def my_image():
 
 # user interface designed image of a spider.
 # for secret room title image
-
+my_image()
 
 def my_spider():
 
@@ -60,6 +61,7 @@ def heart():
     print("☻            ***            ☻")
     print("☻             *             ☻")
     print("☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺")
+
 
 
 
