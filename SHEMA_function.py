@@ -1,8 +1,9 @@
 # customized images using asterisk
 # for name of app
 # top menu
+class Designs:
 
-def my_function():
+ def my_function():
     print("---------------------------------------------------------------------------------------------------------")
     print("|  **       **   **   *            *  **     ******      ********         **         *****     *******  |")
     print("|  **       **   **   ** *      * **  **   ***     ***   ***    ***     **  **     **     **   **       |")
@@ -12,12 +13,12 @@ def my_function():
     print("|  ******    *****    **          **  **     ******      ***        **          **   *****     ******** |")
     print("---------------------------------------------------------------------------------------------------------")
 
-my_function()
+
 # user interface designed image of a flower
 # for main menu entry
 
 
-def my_image():
+ def my_image():
     print("  ҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉")
     print(" ҉҉                        **                         ҉҉")
     print(" ҉҉                  *    ****    *                   ҉҉ ")
@@ -29,9 +30,9 @@ def my_image():
 
 # user interface designed image of a spider.
 # for secret room title image
-my_image()
 
-def my_spider():
+
+ def my_spider():
 
     print("♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦")
     print("♦                  │                     ♦")
@@ -49,7 +50,7 @@ def my_spider():
 
 
 # user interface designed image of a heart.
-def heart():
+ def heart():
 
     print("☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺")
     print("☻                           ☻")
