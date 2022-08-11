@@ -87,7 +87,7 @@ class MainMenu:
         self.shema_class.my_spider()
         self.isaac_class.secret_room_options()
         user_input = int(input("Enter the Menu options: "))
-        while user_input != 3:
+        while user_input != 3 or type(user_input) == str or user_input is not None:
             if user_input == 1:
                 self.sugira_class.read_choice()
                 # call function to get a random word from the read list and output to the screen
