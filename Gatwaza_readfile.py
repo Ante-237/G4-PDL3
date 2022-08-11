@@ -13,6 +13,6 @@ class PositiveMessage:
     def read_positive_vibes():
         with open("PositiveVibes.txt", "r", encoding='utf-8') as file:
             data = file.readlines()
-            print("\t\t---------------------------------------------")
-            print("\t\t", random.choice(data))
-            print("\t\t---------------------------------------------")
+            print("\t\t\t\t---------------------------------------------")
+            print("\t\t\t\t", random.choice(data))
+            print("\t\t\t\t---------------------------------------------")

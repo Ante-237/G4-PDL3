@@ -5,19 +5,19 @@ class Messages:
 
     @staticmethod
     def exit_function(self):
-        print("Bye! and remember to take care of yourself.")
+        print("\t\t\t\tBye! and remember to take care of yourself.")
 
     @staticmethod
     def unavailable(self):
-        print("The option you are trying to choose is currently unavailable")
+        print("\t\t\t\tThe option you are trying to choose is currently unavailable")
 
     @staticmethod
     def not_available(self, name):
-        print("Hope you're leaving better than you came " + name + ", come again soon")
+        print("\t\t\t\tHope you're leaving better than you came " + name + ", come again soon")
 
     @staticmethod
     def wrong_input(self):
-        print("\t\t Wrong input Choice")
+        print("\t\t\t\t\t\t Wrong input Choice")
 
 
 
