@@ -10,7 +10,7 @@ class PositiveMessage:
         pass
 
     @staticmethod
-    def read_positive_vibes(self):
+    def read_positive_vibes():
         with open("PositiveVibes.txt", "r", encoding='utf-8') as file:
             data = file.readline()
             print("\t\t---------------------------------------------")
