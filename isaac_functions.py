@@ -47,3 +47,16 @@ def positive_vibes_options():
     print("|  1-Encouragement      |")
     print("|  2-Exit               |")
     print("-------------------------")
+
+@staticmethod
+def about_options():
+    # function to display people who created the app
+    print("_______________________")
+    print("| Akumawah Nwalahnjie |")
+    print("| Princess Asare      |")
+    print("| Olukorede Olurinola |")
+    print("| Fred Shema          |")
+    print("|  Jean Robert Gatwaza|")
+    print("|  Vincent Sugira     |")
+    print("|  Isaac Rudasingwa   |")
+    print("-----------------------")
