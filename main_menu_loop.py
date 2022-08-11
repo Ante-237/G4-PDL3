@@ -23,7 +23,7 @@ class MainMenu:
         # show top menu  options
         top_menu_options()
         # get user input
-        user_input = int(input("Enter the Menu options:"))
+        user_input = int(input("Enter the Menu options: "))
         while user_input != 4:
             if user_input == 1:
                 # call main menu look function
@@ -42,16 +42,17 @@ class MainMenu:
             # show top menu options
             top_menu_options()
             # get user input again
-            user_input = int(input(" Enter menu option"))
+            user_input = int(input(" Enter menu option: "))
         # exit while showing message for exit
         self.step_class.exit_function(self)
 
         # function to output thanks for using app.
     def loop_main_menu(self):
         # show menu options
-        self.princess_class.main_menu_title()  # display heading for main menu
+        self.princess_class.main_menu_title(self)  # display heading for main menu
         self.shema_class.my_image()  # custom menu image
-        user_input = int(input("Enter the Menu option:"))
+        self.isaac_class.main_menu_options()
+        user_input = int(input("Enter the Menu option: "))
         while user_input != 5:
             # show menu options
             if user_input == 1:
@@ -76,10 +77,10 @@ class MainMenu:
             # show menu options
             self.isaac_class.main_menu_options()
             # get user input again
-            user_input = int(input("Enter the Menu option:"))
+            user_input = int(input("Enter the Menu option: "))
 
         # go to TOP MENU IS exit is entered
-        self.step_class.not_available(self)
+        self.step_class.not_available(self, "Sure")
 
     def secret_room_menu(self):
         # show menu options
@@ -88,7 +89,7 @@ class MainMenu:
         user_input = int(input("Enter the Menu options: "))
         while user_input != 3:
             if user_input == 1:
-                self.sugira_class.read_choice(self)
+                self.sugira_class.read_choice()
                 # call function to get a random word from the read list and output to the screen
             if user_input == 2:
                 self.sugira_class.wt_vibes(self)
@@ -98,9 +99,10 @@ class MainMenu:
                 # call function to show invalid input by user
 
             # show options for secret room
+            self.isaac_class.secret_room_options()
             user_input = int(input("Enter the Menu options: "))
         # go to MAIN MENU if exit value is entered
-        self.step_class.not_available("Here")
+        self.step_class.not_available(self, "Here")
 
     def positive_vibes_menu(self):
         self.princess_class.function_for_pv_title()
@@ -118,10 +120,10 @@ class MainMenu:
 
             # show menu options for positive vibes
             self.isaac_class.positive_vibes_options()
-            user_input = int(input("Enter the Menu options"))
+            user_input = int(input("Enter the Menu options: "))
 
         # go to MAIN MENU if exit value is entered
-        self.step_class.not_available("Here")
+        self.step_class.not_available(self, "Here")
 
 
 

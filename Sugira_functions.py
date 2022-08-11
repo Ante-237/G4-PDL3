@@ -12,15 +12,15 @@ class ReadAll:
     # A function that reads a file and returns each line of the file#
 
     @staticmethod
-    def read_choice(self):
+    def read_choice():
         # read_file = open("SecreteVibes.txt", mode='r', encoding='utf-8')
         # get_file = read_file.readline()
         with open("SecreteVibes.txt", "r", encoding='utf-8') as file:
-            data = file.readline()
+            data = file.readlines()
             get_file = random.choice(data)
 
             print("\t\t---------------------------------------------")
-            print(get_file)
+            print("\t\t", get_file)
             print("\t\t---------------------------------------------")
             """ Close the file"""
 
@@ -32,5 +32,5 @@ class ReadAll:
         # vibe_bank.write(my_vibe)
         output = input("\t\t Hey you what is your story : -> : ")
         with open("SecreteVibes.txt", "a", encoding='utf-8') as file:
-            file.write("\n" + output)
+            file.write(f"\n {output}")
         print("\t\t Thanks for Sharing")

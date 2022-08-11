@@ -12,7 +12,7 @@ class PositiveMessage:
     @staticmethod
     def read_positive_vibes():
         with open("PositiveVibes.txt", "r", encoding='utf-8') as file:
-            data = file.readline()
+            data = file.readlines()
             print("\t\t---------------------------------------------")
-            print(random.choice(data))
+            print("\t\t", random.choice(data))
             print("\t\t---------------------------------------------")
