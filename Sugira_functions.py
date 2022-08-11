@@ -1,4 +1,5 @@
-#A function that displays the SecretVibes title
+# A function that displays the SecretVibes title
+
 import random
 
 
