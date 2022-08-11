@@ -3,9 +3,12 @@ class ReadAll:
     # A function that displays the SecretVibes title
     import random
 
+    @staticmethod
+
     def read_title():
     print(" This is the Secrete Vibes Room ")
-    # A function that reads a file and returns each line of the file#
+    # A function that reads a file and returns each line of t
+    @staticmethod
 
     def read():
     # read_file = open("SecreteVibes.txt", mode='r', encoding='utf-8')
@@ -20,7 +23,7 @@ class ReadAll:
     """ Close the file"""
 
     # A function that appends a file secret vibes
-
+    @staticmethod
     def wt_vibes(entry):
     # vibe_bank = open("SecreteVibes.txt", mode='a')
     # my_vibe = input(str("Please tell us your vibe: "))
