@@ -1,5 +1,6 @@
 # customized images using asterisk
 # for name of app
+# top menu
 
 def my_function():
     print("---------------------------------------------------------------------------------------------------------")
@@ -26,7 +27,7 @@ def my_image():
     print("  ҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉҉")
 
 # user interface designed image of a spider.
-# for secret room entry
+# for secret room title image
 
 
 def my_spider():
@@ -45,8 +46,8 @@ def my_spider():
     print("♦                                        ♦")
     print("♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦♦")
 
-# user interface designed image of a heart.
 
+# user interface designed image of a heart.
 def heart():
 
     print("☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺☺")
