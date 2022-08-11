@@ -1,15 +1,12 @@
 # import required module
 import random
 
-# take two values from user
-name = input("Enter your Name: ")
-Positive_room = input("Enter any positive word: ")
+# get message from positive vibes
 
-# Display all values on screen
-print("\n")
-print("Printing Individual Details")
-print("Name", "Positive_room")
-print(name, Positive_room)
 
-# print random word
-print(random.choice(open("PositiveVibes.txt", "r").readline().split()))
+def read_positive_vibes():
+    with open("PositiveVibes.txt", "r", encoding='utf-8') as file:
+        data = file.readline()
+        print("\t\t---------------------------------------------")
+        print(random.choice(data))
+        print("\t\t---------------------------------------------")
